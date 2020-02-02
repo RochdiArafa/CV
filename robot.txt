@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+User-agent: AdsBot-Google
+Disallow: /img
+Disallow: /css
+Disallow: /js
+Disallow: /scss
+Disallow: /vendor
+
+Sitemap: https://rochdiarafa.github.io/CV/sitemap.xml
+
+
+
+
+
