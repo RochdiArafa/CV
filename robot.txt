@@ -6,8 +6,7 @@ User-agent: AdsBot-Google
 Disallow: /img
 Disallow: /css
 Disallow: /js
-Disallow: /scss
-Disallow: /vendor
+Disallow: /fonts
 
 Sitemap: https://rochdiarafa.github.io/CV/sitemap.xml
 
