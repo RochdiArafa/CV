@@ -97,3 +97,36 @@ function openSlide2() {
         });
     });
 }
+
+function openSlide3() {
+    var selectSlide3 = document.querySelector('.slide3');
+    var slides3 = selectSlide3.querySelectorAll('.modal3 .slide');
+
+    var selectBtn3 = document.querySelector('.navigation3');
+    var btns3 = selectBtn3.querySelectorAll('.slide3 .btn');
+
+    let currentSlide3 = 1;
+
+    // Javascript for image slider manual navigation
+    var manualNav = function (manual) {
+        slides3.forEach((slide) => {
+
+            slide.classList.remove('active');
+
+            btns3.forEach((btn) => {
+                btn.classList.remove('active');
+            });
+
+        });
+
+        slides3[manual].classList.add('active');
+        btns3[manual].classList.add('active');
+    }
+
+    btns3.forEach((btn, i) => {
+        btn.addEventListener("click", () => {
+            manualNav(i);
+            currentSlide3 = i;
+        });
+    });
+}
