@@ -1271,6 +1271,97 @@ a.read-more:hover::before,
 
 
 /*-----------------------------
+    8. CONTACT AREA
+------------------------------*/
+
+.single-contact {
+    padding: 20px 20px 20px 80px;
+    position: relative;
+}
+
+.contact-icon {
+    background: -webkit-linear-gradient(left, #21c2f8, #00deff);
+    background: linear-gradient(90deg, #21c2f8, #00deff);
+    color: transparent;
+    font-size: 60px;
+    left: 10px;
+    position: absolute;
+    top: 20px;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.contact-details strong {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.contact-details p {
+    margin-bottom: 0;
+}
+
+.contact-details a {
+    color: #4a494d;
+}
+
+.contact-details a:hover {
+    color: #21c2f8;
+}
+
+.contact-form-area {
+    margin-bottom: 50px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+input.form-control,
+.contact-form textarea {
+    background: rgba(255, 255, 255, 0.2) none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: 0 0 0;
+    max-height: 150px;
+    min-height: 40px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+input.form-control:focus,
+.contact-form textarea:focus {
+    border-color: #21c2f8;
+    box-shadow: 0 0 0;
+}
+
+.contact-form button {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid;
+    color: #21c2f8;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 10px 30px;
+    position: relative;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.contact-form button:hover {
+    border-color: #21c2f8;
+    color: #ffffff;
+    background: transparent;
+}
+
+
+/*-----------------------------
     9. FOOTER AREA
 ------------------------------*/
 
