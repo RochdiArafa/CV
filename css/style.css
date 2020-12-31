@@ -625,7 +625,7 @@ ul#nav li.active a {
 .home-button {
     bottom: 30px;
     left: 50%;
-    margin-left: -16px;
+    margin-left: -100px;
     position: absolute;
 }
 
