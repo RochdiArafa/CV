@@ -11,3 +11,9 @@ AddOutputFilterByType DEFLATE application/xhtml+xml
 AddOutputFilterByType DEFLATE application/rss+xml
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
+
+
+# Enable Keep-Alive to enable download multiple files:
+<ifModule mod_headers.c>
+    Header set Connection keep-alive
+</ifModule>
