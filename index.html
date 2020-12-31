@@ -35,12 +35,17 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/icofont.css">
     <!--====== MAIN STYLESHEETS ======-->
-    <link rel="stylesheet" type="text/css" href="./css/style.css" >
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/responsive.css">
-    <link  rel="stylesheet" type="text/css" href="./css/slider.css">
+    <link rel="stylesheet" type="text/css" href="./css/slider.css">
+    <!--====== STYLESHEET of Multilangue ======-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/styleLangue.css">
+
 
 </head>
 
@@ -64,14 +69,44 @@
                         </div>
                         <div class="collapse navbar-collapse bs-example-js-navbar-scrollspy">
                             <ul id="nav" class="nav navbar-nav">
-                                <li><a href="#accueil">Accueil</a></li>
-                                <li><a href="#àpropos">À propos</a></li>
-                                <li><a href="#formation">Formation</a></li>
-                                <li><a href="#expérience">Projet & Expérience</a></li>
-                                <li><a href="#compétences">Compétence</a></li>
-                                <li><a href="#certificats">Certificat</a></li>
-                                <li><a href="#languages">Langue</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="#accueil" class="accueil">Accueil</a></li>
+                                <li><a href="#àpropos" class="about">À propos</a></li>
+                                <li><a href="#formation" class="formation">Formation</a></li>
+                                <li><a href="#expérience" class="projet">Projet & Expérience</a></li>
+                                <li><a href="#compétences" class="compt">Compétence</a></li>
+                                <li><a href="#certificats" class="cert">Certificat</a></li>
+                                <li><a href="#languages" class="langue">Langue</a></li>
+                                <li><a href="#contact" class="contact">Contact</a></li>
+                                <li style="margin-top: 6px; margin-bottom: 13px;">
+                                    <div class="translate_wrapper">
+                                        <div class="current_lang">
+                                            <div class="lang">
+                                                <img src="https://image.flaticon.com/icons/svg/299/299722.svg">
+                                                <span class="lang-txt">EN</span>
+                                                <span class="fa fa-chevron-down chevron"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="more_lang">
+
+                                            <div class="lang selected" data-value='en'>
+                                                <img src="https://image.flaticon.com/icons/svg/299/299722.svg">
+                                                <span class="lang-txt">English<span> (US)</span></span>      
+                                              </div>
+
+                                            <div class="lang" data-value='fr'>
+                                                <img src="https://image.flaticon.com/icons/svg/299/299753.svg">
+                                                <span class="lang-txt">Français</span>      
+                                              </div>
+
+                                            <div class="lang" data-value="ar">
+                                                <img src="https://image.flaticon.com/icons/svg/299/299815.svg">
+                                                <span class="lang-txt">العربية <span> (SA)</span></span>      
+                                              </div> 
+
+                                        </div>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -79,6 +114,9 @@
             </div>
             <!--END MAINMENU AREA END-->
         </div>
+
+
+
         <!--HOME STATIC TEXT AREA-->
         <div class="welcome-text-area">
             <div class="container">
@@ -93,7 +131,8 @@
             </div>
             <div class="home-button">
                 <a href="https://docs.google.com/viewer?url=https://rochdiarafa.github.io/CV/Rachid-Arafa-CV.pdf"
-                    Rel=nofollow><i class="animated fadeInDown icofont icofont-bubble-down"></i>Télècharger CV<i
+                    Rel=nofollow><i class="animated fadeInDown icofont icofont-bubble-down"></i><span
+                        id="cvbtn">Télècharger CV</span><i
                         class="animated fadeInDown icofont icofont-bubble-down"></i></a>
             </div>
         </div>
@@ -105,12 +144,12 @@
                 <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12 wow fadeIn">
                     <div class="about-content">
                         <div class="area-title-and-description wow fadeIn">
-                            <h2>À propos</h2>
+                            <h2 class="about">À propos</h2>
                         </div>
                         <div class="about-img wow fadeIn hidden-lg hidden-md">
                             <img src="img/about/about_me.jpg" alt="rachid arafa" width="642" height="642">
                         </div>
-                        <p>
+                        <p id="desc">
                             Je m'appelle Rachid Arafa,
                             J'ai développé pas mal d’application sur différentes plateformes.
                             Je suis quelqu’un d’autonome, très motivé, énergique et axé sur les résultats, mais je
@@ -118,9 +157,9 @@
                         </p>
                         <div class="address-details">
                             <ul>
-                                <li><strong>Nom et prénom:</strong>Rachid Arafa</li>
-                                <li><strong>Email:</strong>rachid.arafa@esprit.tn</li>
-                                <li><strong>Téléphone:</strong>+216 58 117 856</li>
+                                <li><strong id="NomP">Nom et prénom:</strong>Rachid Arafa</li>
+                                <li><strong id="email">Email:</strong>rachid.arafa@esprit.tn</li>
+                                <li><strong id="tel">Téléphone:</strong>+216 58 117 856</li>
                             </ul>
                         </div>
                         <div class="author-social-bookmark">
@@ -289,15 +328,16 @@
                                         <p><i class="icofont icofont-code"></i>Stage d'été à Familia Chic</p>
                                     </div>
                                     <p>
-                                        Développement d'un site E-commerce qui est particulièrement utile à tous personnes qui possèdent une boutique.
+                                        Développement d'un site E-commerce qui est particulièrement utile à tous
+                                        personnes qui possèdent une boutique.
                                         <br> <br>
                                         Technologies utilisées : <a href="https://github.com/RochdiArafa/AppEcommerce"
                                             Rel=nofollow title="Voir projet"> Symfony 3.4 </a>| GIT
                                     </p>
                                     <button type="button" class="btnstyle" class="btn" onclick="openSlide3()"
-                                    data-toggle="modal" data-target=".modal-projet3"><i
-                                        class="icofont icofont-image"> </i> View
-                                    Screenshos</button>
+                                        data-toggle="modal" data-target=".modal-projet3"><i
+                                            class="icofont icofont-image"> </i> View
+                                        Screenshos</button>
                                 </div>
                             </div>
                         </div>
@@ -410,7 +450,8 @@
                         <img src="https://khamsat.hsoubcdn.com/uploads/31-12-2020/813911-e39573a564c20.jpg" alt="">
                         <div class="info">
                             <h2>Slide 01</h2>
-                            <p>L'interface d'accueil qui représente la liste des produits disponible dans notre système.</p>
+                            <p>L'interface d'accueil qui représente la liste des produits disponible dans notre système.
+                            </p>
                         </div>
                     </div>
                     <div class="slide">
@@ -425,7 +466,8 @@
                         <img src="https://khamsat.hsoubcdn.com/uploads/31-12-2020/813911-a534d88fbf5f7.jpg" alt="">
                         <div class="info">
                             <h2>Slide 03</h2>
-                            <p>L'interface qui représente les détails d'un produit dans laquelle ce dernier est en rupture de stock.
+                            <p>L'interface qui représente les détails d'un produit dans laquelle ce dernier est en
+                                rupture de stock.
                             </p>
                         </div>
                     </div>
@@ -486,17 +528,21 @@
 
                 <div class="img-slider slide2">
                     <div class="slide active">
-                        <img src="https://khamsat.hsoubcdn.com/images/services/813911/9905827cb891489433c9ec804cd4807b.jpg" alt="">
+                        <img src="https://khamsat.hsoubcdn.com/images/services/813911/9905827cb891489433c9ec804cd4807b.jpg"
+                            alt="">
                         <div class="info">
                             <h2>Slide 01</h2>
-                            <p>L'interface de l'application desktop pour consulter une question concernant une plante et de répondre à ce dernier.</p>
+                            <p>L'interface de l'application desktop pour consulter une question concernant une plante et
+                                de répondre à ce dernier.</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="https://khamsat.hsoubcdn.com/images/services/813911/1bdf829708702c78445d6c60a52d8531.jpg" alt="">
+                        <img src="https://khamsat.hsoubcdn.com/images/services/813911/1bdf829708702c78445d6c60a52d8531.jpg"
+                            alt="">
                         <div class="info">
                             <h2>Slide 02</h2>
-                            <p>L'interface de l'application web pour consulter une question concernant une plante et de répondre à ce dernier.
+                            <p>L'interface de l'application web pour consulter une question concernant une plante et de
+                                répondre à ce dernier.
                             </p>
                         </div>
                     </div>
@@ -519,14 +565,16 @@
 
                 <div class="img-slider slide1">
                     <div class="slide active">
-                        <img src="https://khamsat.hsoubcdn.com/images/services/813911/5243fabb1d2d0562ea5a4bc2547d8bde.jpg" alt="">
+                        <img src="https://khamsat.hsoubcdn.com/images/services/813911/5243fabb1d2d0562ea5a4bc2547d8bde.jpg"
+                            alt="">
                         <div class="info">
                             <h2>Slide 01</h2>
                             <p>L'interface pour s'authentifier à notre application mobile.</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="https://khamsat.hsoubcdn.com/images/services/813911/a0da5b8d82f465450cdcfe962f3e5609.jpg" alt="">
+                        <img src="https://khamsat.hsoubcdn.com/images/services/813911/a0da5b8d82f465450cdcfe962f3e5609.jpg"
+                            alt="">
                         <div class="info">
                             <h2>Slide 02</h2>
                             <p>L'interface pour s'authentifier qui contient les conditions de validation de formulaire.
@@ -534,7 +582,8 @@
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="https://khamsat.hsoubcdn.com/images/services/813911/a47ad7588776236ac37ddcb9ff8dbb68.jpg" alt="">
+                        <img src="https://khamsat.hsoubcdn.com/images/services/813911/a47ad7588776236ac37ddcb9ff8dbb68.jpg"
+                            alt="">
                         <div class="info">
                             <h2>Slide 03</h2>
                             <p>L'interface de dashboard accessible par le modérateur ou bien par le responsable de
@@ -542,7 +591,8 @@
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="https://khamsat.hsoubcdn.com/images/services/813911/68191108c75ee5ef2b7ae6bb3d510f10.jpg" alt="">
+                        <img src="https://khamsat.hsoubcdn.com/images/services/813911/68191108c75ee5ef2b7ae6bb3d510f10.jpg"
+                            alt="">
                         <div class="info">
                             <h2>Slide 04</h2>
                             <p>L'interface de profile d'une auto-école qui contient tous les données nécessaire
@@ -550,14 +600,16 @@
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="https://khamsat.hsoubcdn.com/images/services/813911/f7c8f712cd24775d9091de0a64d5f1b4.jpg" alt="">
+                        <img src="https://khamsat.hsoubcdn.com/images/services/813911/f7c8f712cd24775d9091de0a64d5f1b4.jpg"
+                            alt="">
                         <div class="info">
                             <h2>Slide 05</h2>
                             <p>L'interface qui contient tous les paiements des candidats d'une auto-école.</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="https://khamsat.hsoubcdn.com/images/services/813911/348b70fa7f216dd36dfec09aafed859c.jpg" alt="">
+                        <img src="https://khamsat.hsoubcdn.com/images/services/813911/348b70fa7f216dd36dfec09aafed859c.jpg"
+                            alt="">
                         <div class="info">
                             <h2>Slide 06</h2>
                             <p>L'interface accessible par le public pour rechercher une auto-école à proximité de lui.
@@ -565,7 +617,8 @@
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="https://khamsat.hsoubcdn.com/images/services/813911/fc4455d5500d1f02101fceb447b4582b.jpg" alt="">
+                        <img src="https://khamsat.hsoubcdn.com/images/services/813911/fc4455d5500d1f02101fceb447b4582b.jpg"
+                            alt="">
                         <div class="info">
                             <h2>Slide 07</h2>
                             <p>L'interface accessible par le public pour rechercher ou bien pour voir la liste des
@@ -922,7 +975,8 @@
             <div class="row">
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                     <div class="footer-copyright text-center">
-                        <p>Copyright © 2021 Rachid Arafa, made with <i class="icofont icofont-heart" style="color: rgb(235, 50, 50);"></i> for a better web.</p>
+                        <p>Copyright © 2021 Rachid Arafa, made with <i class="icofont icofont-heart"
+                                style="color: rgb(235, 50, 50);"></i> for a better web.</p>
                     </div>
                 </div>
             </div>
@@ -951,6 +1005,9 @@
 
     <!--===== JS for Slides =====-->
     <script type="text/javascript" src="js/slides.js"></script>
+    <!--===== JS for Multilangue =====-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/scriptLangue.js"></script>
 
 </body>
 
