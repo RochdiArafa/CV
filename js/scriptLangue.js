@@ -1,4 +1,4 @@
-var tnum = 'en';
+var tnum = 'fr';
 
 $(document).ready(function(){
   
