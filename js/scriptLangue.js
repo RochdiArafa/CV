@@ -49,7 +49,7 @@ function translate(tnum){
   $('.cert').text(trans[5][tnum]);
   $('.langue').text(trans[6][tnum]);
   $('.contact').text(trans[7][tnum]);
-  $('.writing-text').text(trans[8][tnum]);
+  $('#poste').text(trans[8][tnum]);
 
   $('#cvbtn').text(trans[9][tnum]);
   $('#desc').text(trans[10][tnum]);
@@ -80,7 +80,18 @@ function translate(tnum){
   $('#dateProjet1').text(trans[35][tnum]);
   $('#placeProjet1').text(trans[36][tnum]);
   $('#descProjet1').text(trans[37][tnum]);
-  
+  $('.btnstyle').text(trans[38][tnum]);
+  $('.nom').text(trans[39][tnum]);
+  $('.telNum').text(trans[40][tnum]);
+  $('#proj3Descrip1').text(trans[41][tnum]);
+  $('#proj3Descrip2').text(trans[42][tnum]);
+  $('#proj3Descrip3').text(trans[43][tnum]);
+  $('#proj3Descrip4').text(trans[44][tnum]);
+  $('#proj3Descrip5').text(trans[45][tnum]);
+  $('#proj3Descrip6').text(trans[46][tnum]);
+  $('#proj3Descrip7').text(trans[47][tnum]);
+
+
   //$('.content a span').text(trans[2][tnum]);
 }
 
@@ -239,6 +250,47 @@ var trans = [
     en : 'Development of a primary school management application, schedule management, notebooks ...',
     fr : "Développement d'une application de gestion d'école primaire , gestion des emplois de temps, carnets de notes....",
     ar : 'تطوير تطبيق إدارة المدارس الابتدائية ، وإدارة الجداول ، وأجهزة الكمبيوتر المحمولة ...'
+  },{ 
+    en : 'View Screenshots',
+    fr : "Voir les captures d'écran",
+    ar : 'مشاهدة لقطات'
+  },{ 
+    en : 'Rachid ARAFA',
+    fr : "Rachid ARAFA",
+    ar : 'رشيد عرافة'
+  },{ 
+    en : '+216 58 117 856',
+    fr : "+216 58 117 856",
+    ar : '856 117 58 216+'
+  },
+  { 
+    en : 'The home interface which represents the list of products available in our system.',
+    fr : "L'interface d'accueil qui représente la liste des produits disponible dans notre système.",
+    ar : 'الواجهة الرئيسية التي تمثل قائمة المنتجات المتوفرة في نظامنا.'
+  },{ 
+    en : 'The interface which represents the details of a product.',
+    fr : "L'interface qui représente les détails d'un produit.",
+    ar : 'الواجهة التي تمثل تفاصيل المنتج.'
+  },{ 
+    en : 'The interface which represents the details of a product in which it is out of stock.',
+    fr : "L'interface qui représente les détails d'un produit dans laquelle ce dernier est en rupture de stock.",
+    ar : 'الواجهة التي تمثل تفاصيل المنتج الذي نفد منه المخزون.'
+  },{ 
+    en : 'The interface which represents the contact page for our customers.',
+    fr : "L'interface qui représente la page de contact pour nos clients.",
+    ar : 'الواجهة التي تمثل صفحة الاتصال لعملائنا.'
+  },{ 
+    en : 'The interface which represents customer reviews of a product.',
+    fr : "L'interface qui représente les avis des clients concernant un produit.",
+    ar : 'الواجهة التي تمثل مراجعات العملاء للمنتج.'
+  },{ 
+    en : "The interface which represents a customer's shopping cart.",
+    fr : "L'interface qui représente le panier d'achat d'un client.",
+    ar : 'الواجهة التي تمثل عربة تسوق العميل.'
+  },{ 
+    en : "The interface which represents the customer's shopping list.",
+    fr : "L'interface qui représente la liste d'achat du client.",
+    ar : 'الواجهة التي تمثل قائمة الشراء للعميل.'
   },
   
 ];
