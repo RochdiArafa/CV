@@ -54,14 +54,16 @@ function translate(tnum){
   $('#cvbtn').text(trans[9][tnum]);
   $('#desc').text(trans[10][tnum]);
   $('#NomP').text(trans[11][tnum]);
-  $('#email').text(trans[12][tnum]);
-  $('#tel').text(trans[13][tnum]);
-  //$('#email').text(trans[7][tnum]);
-  //$('#email').text(trans[8][tnum]);
-  //$('#email').text(trans[9][tnum]);
+  $('.email').text(trans[12][tnum]);
+  $('.tel').text(trans[13][tnum]);
+  $('#esprit').text(trans[14][tnum]);
+  $('#dateEsprit').text(trans[15][tnum]);
+  $('#DiplEsprit').text(trans[16][tnum]);
+  $('#fsb').text(trans[17][tnum]);
+  $('#DiplFSB').text(trans[18][tnum]);
 
   
-  $('.content a span').text(trans[2][tnum]);
+  //$('.content a span').text(trans[2][tnum]);
 }
 
 var trans = [ 
@@ -122,6 +124,26 @@ var trans = [
     en : 'Mobile:',
     fr : 'Téléphone:',
     ar : 'الهاتف:'
+  },{ 
+    en : 'Private Higher School of Engineering and Technologies (ESPRIT)',
+    fr : "Ecole Superieur Privée d'Ingénierie et de Technologies (ESPRIT)",
+    ar : 'المدرسة العليا الخاصة للمهندسين والتقنيات (ESPRIT)'
+  },{ 
+    en : "2018 - Today",
+    fr : "2018 - Aujourd'hui",
+    ar : '2018 - الوقت الحاضر'
+  },{ 
+    en : 'Computer science engineering degree specializing in web technologies',
+    fr : "Diplôme d'ingénieur en informatique spécialisé dans les technologies du web",
+    ar : 'شهادة في هندسة علوم الكمبيوتر متخصص في تقنيات الويب'
+  },{ 
+    en : 'Faculty of Sciences of Bizerte (FSB)',
+    fr : "Faculté Des Sciences De Bizerte (FSB)",
+    ar : 'كلية العلوم ببنزرت (FSB)'
+  },{ 
+    en : 'Computer science degree',
+    fr : "Licence fondamentale en Science de l'Informatique",
+    ar : 'شهادة في علوم الحاسوب'
   },
   
 ];
