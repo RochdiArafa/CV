@@ -131,7 +131,7 @@
                 </div>
             </div>
             <div class="home-button">
-                <a href="https://docs.google.com/viewer?url=https://rochdiarafa.github.io/CV/Rachid-Arafa-CV.pdf"
+                <a id="urlCV" href="https://docs.google.com/viewer?url=https://rochdiarafa.github.io/CV/Rachid-Arafa-CV-FR.pdf"
                     Rel=nofollow><i class="animated fadeInDown icofont icofont-bubble-down"></i><span
                         id="cvbtn">Télècharger CV</span><i
                         class="animated fadeInDown icofont icofont-bubble-down"></i></a>
@@ -1024,6 +1024,24 @@
     <!--===== JS for Multilangue =====-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/scriptLangue.js"></script>
+    <script type="text/javascript" >
+        $('#urlCV')
+        .hover(
+            function() { // mouseenter
+                if($('#cvbtn').text() == 'Télècharger CV'){
+                    document.getElementById("urlCV").href = "https://docs.google.com/viewer?url=https://rochdiarafa.github.io/CV/Rachid-Arafa-CV-FR.pdf";
+                }
+                else if($('#cvbtn').text() == 'Download CV'){
+                    document.getElementById("urlCV").href = "https://docs.google.com/viewer?url=https://rochdiarafa.github.io/CV/Rachid-Arafa-CV-EN.pdf";
+                }else
+                {
+                    document.getElementById("urlCV").href = "https://docs.google.com/viewer?url=https://rochdiarafa.github.io/CV/Rachid-Arafa-CV-FR.pdf";
+                }
+            },
+            function() { // mouseleave
+                
+            });
+    </script>
 
 </body>
 

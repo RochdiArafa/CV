@@ -30,12 +30,12 @@ jQuery(document).on('ready', function ($) {
         HOME TYPE TEXT
     ----------------------------*/
     $('.type-text').typeIt({
-        strings: ['Siteweb', 'CV'],
+        strings: ['Siteweb', 'CV' , 'Portfolio'],
         breakLines: false,
         autoStart: true,
         cursor: false,
         loop: true,
-        speed: 200
+        speed: 250
     });
 
 
