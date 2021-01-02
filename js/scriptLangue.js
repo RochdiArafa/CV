@@ -90,9 +90,16 @@ function translate(tnum){
   $('#proj3Descrip5').text(trans[45][tnum]);
   $('#proj3Descrip6').text(trans[46][tnum]);
   $('#proj3Descrip7').text(trans[47][tnum]);
+  $('#proj2Descrip1').text(trans[48][tnum]);
+  $('#proj2Descrip2').text(trans[49][tnum]);
+  $('#proj1Descrip1').text(trans[50][tnum]);
+  $('#proj1Descrip2').text(trans[51][tnum]);
+  $('#proj1Descrip3').text(trans[52][tnum]);
+  $('#proj1Descrip4').text(trans[53][tnum]);
+  $('#proj1Descrip5').text(trans[54][tnum]);
+  $('#proj1Descrip6').text(trans[55][tnum]);
+  $('#proj1Descrip7').text(trans[56][tnum]);
 
-
-  //$('.content a span').text(trans[2][tnum]);
 }
 
 var trans = [ 
@@ -291,6 +298,42 @@ var trans = [
     en : "The interface which represents the customer's shopping list.",
     fr : "L'interface qui représente la liste d'achat du client.",
     ar : 'الواجهة التي تمثل قائمة الشراء للعميل.'
+  },{ 
+    en : "The interface of the desktop application to consult a question about a plant and to answer it.",
+    fr : "L'interface de l'application desktop pour consulter une question concernant une plante et de répondre à ce dernier.",
+    ar : 'واجهة تطبيق سطح المكتب للاطلاع على سؤال يتعلق بالنبتة والإجابة عليه.'
+  },{ 
+    en : "The interface of the web application to consult a question about a plant and to answer it.",
+    fr : "L'interface de l'application web pour consulter une question concernant une plante et de répondre à ce dernier.",
+    ar : 'واجهة تطبيق الويب للاطلاع على سؤال يتعلق بالنبتة والإجابة عليه.'
+  },{ 
+    en : "The login interface to authenticate to our mobile application.",
+    fr : "L'interface login pour s'authentifier à notre application mobile.",
+    ar : 'واجهة تسجيل الدخول للمصادقة على تطبيق الهاتف المحمول الخاص بنا.'
+  },{ 
+    en : "The login interface to authenticate which contains the form validation conditions.",
+    fr : "L'interface login pour s'authentifier qui contient les conditions de validation de formulaire.",
+    ar : 'واجهة تسجيل الدخول للمصادقة والتي تحتوي على شروط التحقق من صحة النموذج.'
+  },{ 
+    en : "The dashboard interface accessible by the moderator or by the driving school manager to manage his work.",
+    fr : "L'interface de dashboard accessible par le modérateur ou bien par le responsable de l'auto-école pour gérer son travail.",
+    ar : 'واجهة لوحة القيادة التي يمكن الوصول إليها من قبل الوسيط أو مدير مدرسة القيادة لإدارة عمله.'
+  },{ 
+    en : "The profile interface of a driving school which contains all its necessary data.",
+    fr : "L'interface de profile d'une auto-école qui contient tous les données nécessaire concernant ce dernier.",
+    ar : 'واجهة الملف الشخصي لمدرسة لتعليم قيادة السيارات والتي تحتوي على جميع البيانات اللازمة المتعلقة بهذه الأخيرة.'
+  },{ 
+    en : "The interface which contains all the payments of the candidates of a driving school.",
+    fr : "L'interface qui contient tous les paiements des candidats d'une auto-école.",
+    ar : 'الواجهة التي تحتوي على جميع مدفوعات المرشحين لمدرسة لتعليم القيادة.'
+  },{ 
+    en : "The interface accessible to the public to find a driving school nearby.",
+    fr : "L'interface accessible par le public pour rechercher une auto-école à proximité de lui.",
+    ar : 'واجهة متاحة للزوار للعثور على مدرسة لتعليم قيادة السيارات في مكان قريب منه.'
+  },{ 
+    en : "The interface accessible to the public to search or to see the list of the available driving schools.",
+    fr : "L'interface accessible par le public pour rechercher ou bien pour voir la liste des auto-écoles disponible.",
+    ar : 'الواجهة التي يمكن للجمهور الوصول إليها للبحث أو الاطلاع على قائمة مدارس القيادة المتاحة.'
   },
   
 ];
