@@ -117,6 +117,12 @@ function translate(tnum){
   $('#fr').text(trans[72][tnum]);
   $('#eng').text(trans[73][tnum]);
   $('#ar').text(trans[74][tnum]);
+  $('#adres').text(trans[75][tnum]);
+  $('#adresse').text(trans[76][tnum]);
+  $('#footer1').text(trans[77][tnum]);
+  $('#footer2').text(trans[78][tnum]);
+  $('#LKA').text(trans[79][tnum]);
+  $('#DiplLKA').text(trans[80][tnum]);
 
 }
 
@@ -424,6 +430,31 @@ var trans = [
     en : "Arabic",
     fr : "Arabe",
     ar : 'العربي'
+  },{ 
+    en : "Adress",
+    fr : "Adresse",
+    ar : 'العنوان'
+  },{ 
+    en : "Kalaat El Andalous, Ariana, Tunis",
+    fr : "Kalaat El Andalous, Ariana, Tunis",
+    ar : 'قلعة الأندلس ، أريانة ، تونس'
+  },{ 
+    en : "All Copyright reserved © 2021 Rachid Arafa, made with",
+    fr : "Tous droits réservés © 2021 Rachid Arafa, réalisé avec",
+    ar : 'جميع الحقوق محفوظة © 2021 رشيد عرافة ، صنع بـ'
+  },{ 
+    en : "for a better web.",
+    fr : "pour un meilleur Web.",
+    ar : 'للحصول على ويب أفضل.'
+  },{ 
+    en : "Kalaat El Andalous High School",
+    fr : "Lycée Kalaat El Andalous",
+    ar : 'ثانوية قلعة الأندلس'
+  },{ 
+    en : "Bachelor of Computer Science",
+    fr : "Baccalauréat en Informatique",
+    ar : 'بكالوريوس في علوم الحاسوب'
   },
+  
   
 ];
