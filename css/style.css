@@ -848,6 +848,10 @@ ul#nav li.active a {
     color: #21c2f8;
 }
 
+.timeline-details{
+    padding-right: 20px;
+}
+
 
 /*-----------------------------
     5. SKILL AREA
