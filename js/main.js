@@ -39,7 +39,10 @@ jQuery(document).on('ready', function ($) {
         speed: 250
     });
 
-    // on change de language detected
+    
+    /*--------------------------
+        on change de language detected
+    ---------------------------*/
     $(".current_lang .lang .lang-txt").on('DOMSubtreeModified', function () {
         //document.getElementById("fname").addEventListener("change", myFunction);
         if ($('#cvbtn').text() == 'Télècharger CV') {
@@ -71,6 +74,27 @@ jQuery(document).on('ready', function ($) {
             });
         }
     });
+
+
+    /*--------------------------
+        translate CV To FR, An & AR
+    ---------------------------*/
+
+    $('#urlCV').hover(
+        function () { // mouseenter
+            console.log($('.current_lang .lang .lang-txt').text());
+            if ($('#cvbtn').text() == 'Télècharger CV') {
+                document.getElementById("urlCV").href = "https://docs.google.com/viewer?url=https://rochdiarafa.github.io/CV/Rachid-Arafa-CV-FR.pdf";
+            }
+            else if ($('#cvbtn').text() == 'Download CV') {
+                document.getElementById("urlCV").href = "https://docs.google.com/viewer?url=https://rochdiarafa.github.io/CV/Rachid-Arafa-CV-EN.pdf";
+            } else {
+                document.getElementById("urlCV").href = "https://docs.google.com/viewer?url=https://rochdiarafa.github.io/CV/Rachid-Arafa-CV-FR.pdf";
+            }
+        },
+        function () { // mouseleave
+
+        });
 
     /*--------------------------
         PUSH MENU OPEN COLOSE
