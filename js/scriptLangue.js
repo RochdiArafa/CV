@@ -99,6 +99,24 @@ function translate(tnum){
   $('#proj1Descrip5').text(trans[54][tnum]);
   $('#proj1Descrip6').text(trans[55][tnum]);
   $('#proj1Descrip7').text(trans[56][tnum]);
+  $('#titleCertif5').text(trans[57][tnum]);
+  $('#dateCertif5').text(trans[58][tnum]);
+  $('#descCertif5').text(trans[59][tnum]);
+  $('#titleCertif4').text(trans[60][tnum]);
+  $('#dateCertif4').text(trans[61][tnum]);
+  $('#descCertif4').text(trans[62][tnum]);
+  $('#titleCertif3').text(trans[63][tnum]);
+  $('#dateCertif3').text(trans[64][tnum]);
+  $('#descCertif3').text(trans[65][tnum]);
+  $('#titleCertif2').text(trans[66][tnum]);
+  $('#dateCertif2').text(trans[67][tnum]);
+  $('#descCertif2').text(trans[68][tnum]);
+  $('#titleCertif1').text(trans[69][tnum]);
+  $('#dateCertif1').text(trans[70][tnum]);
+  $('#descCertif1').text(trans[71][tnum]);
+  $('#fr').text(trans[72][tnum]);
+  $('#eng').text(trans[73][tnum]);
+  $('#ar').text(trans[74][tnum]);
 
 }
 
@@ -334,6 +352,78 @@ var trans = [
     en : "The interface accessible to the public to search or to see the list of the available driving schools.",
     fr : "L'interface accessible par le public pour rechercher ou bien pour voir la liste des auto-écoles disponible.",
     ar : 'الواجهة التي يمكن للجمهور الوصول إليها للبحث أو الاطلاع على قائمة مدارس القيادة المتاحة.'
+  },{ 
+    en : "CEFR B2 Upper Intermediate",
+    fr : "CEFR B2 Intermédiaire Supérieur",
+    ar : 'CEFR B2 فوق المتوسط'
+  },{ 
+    en : "December 2020 - December 2021",
+    fr : "Décembre 2020 - Décembre 2021",
+    ar : 'ديسمبر 2020 - ديسمبر 2021'
+  },{ 
+    en : "English certificate CEFR B2 by British Council",
+    fr : "Certificat d'anglais CEFR B2 par British Council",
+    ar : 'شهادة اللغة الإنجليزية CEFR B2 من British Council'
+  },{ 
+    en : "Learn Git! The SIMPLIFIED Git 101 Basics Course!",
+    fr : "Apprenez Git! Le cours de base de Git 101 SIMPLIFIÉ!",
+    ar : 'تعلم Git! دورة أساسيات Git 101 المبسطة!'
+  },{ 
+    en : "December 2020 - December 2021",
+    fr : "February 2020 - no expiration date",
+    ar : 'فبراير 2020 - لا يوجد تاريخ انتهاء الصلاحية'
+  },{ 
+    en : "Certificate Learn Git! The SIMPLIFIED Git 101 Basics Course from Udemy",
+    fr : "Certificat Apprenez Git! Le cours de base de Git 101 SIMPLIFIÉ! d'Udemy",
+    ar : 'شهادة تعلم Git! دورة أساسيات Git 101 المبسطة! من Udemy'
+  },{ 
+    en : "The Complete 2019 FullStack Web Developer Course",
+    fr : "Le cours complet de développement Web Full Stack 2019",
+    ar : 'دورة مطور الويب الكاملة لعام 2019'
+  },{ 
+    en : "November 2019 - no expiration date",
+    fr : "Novembre 2019 - pas de date d'expiration",
+    ar : 'نوفمبر 2019 - لا يوجد تاريخ انتهاء الصلاحية'
+  },{ 
+    en : "Certificate The Complete 2019 FullStack Web Developer Course from Udemy",
+    fr : "Certificat Le cours complet de développement Web Full Stack 2019 d'Udemy",
+    ar : 'شهادة دورة مطور الويب الكاملة لعام 2019 من Udemy'
+  },{ 
+    en : "The Complete Java Developer Course: Beginner To Expert",
+    fr : "Le cours complet de développeur Java: du débutant à l'expert",
+    ar : 'دورة مطور Java الكاملة: مبتدئ إلى خبير'
+  },{ 
+    en : "November 2019 - no expiration date",
+    fr : "Novembre 2019 - pas de date d'expiration",
+    ar : 'نوفمبر 2019 - لا يوجد تاريخ انتهاء الصلاحية'
+  },{ 
+    en : "Certificate The Complete Java Developer Course: Beginner To Expert from Udemy",
+    fr : "Certificat Le cours complet de développeur Java: du débutant à l'expert d'Udemy",
+    ar : 'شهادة دورة مطور Java الكاملة: مبتدئ إلى خبير من Udemy'
+  },{ 
+    en : "Introduction to Programming Using HTML and CSS",
+    fr : "Introduction à la programmation utilisant HTML et CSS",
+    ar : 'دورة مطور Java الكاملة: مبتدئ إلى خبير'
+  },{ 
+    en : "June 2019 - June 2021",
+    fr : "Juin 2019 - Juin 2021",
+    ar : 'يونيو 2019 - يونيو 2021'
+  },{ 
+    en : "Certificate Introduction to Programming Using HTML and CSS from Microsoft",
+    fr : "Certificat d'introduction à la programmation utilisant HTML et CSS de Microsoft",
+    ar : 'شهادة مقدمة في البرمجة باستخدام HTML و CSS من Microsoft'
+  },{ 
+    en : "Frensh",
+    fr : "Français",
+    ar : 'الفرنسي'
+  },{ 
+    en : "English",
+    fr : "Anglais",
+    ar : 'الإنجليزية'
+  },{ 
+    en : "Arabic",
+    fr : "Arabe",
+    ar : 'العربي'
   },
   
 ];
