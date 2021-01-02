@@ -29,8 +29,9 @@ jQuery(document).on('ready', function ($) {
     /*---------------------------
         HOME TYPE TEXT
     ----------------------------*/
+    //etat par defaut en Fr
     $('.type-text').typeIt({
-        strings: ['Siteweb', 'CV' , 'Portfolio'],
+        strings: ['Site Web', 'CV', 'Portfolio'],
         breakLines: false,
         autoStart: true,
         cursor: false,
@@ -38,6 +39,38 @@ jQuery(document).on('ready', function ($) {
         speed: 250
     });
 
+    // on change de language detected
+    $(".current_lang .lang .lang-txt").on('DOMSubtreeModified', function () {
+        //document.getElementById("fname").addEventListener("change", myFunction);
+        if ($('#cvbtn').text() == 'Télècharger CV') {
+            $('.type-text').typeIt({
+                strings: ['Site Web', 'CV', 'Portfolio'],
+                breakLines: false,
+                autoStart: true,
+                cursor: false,
+                loop: true,
+                speed: 250
+            });
+        } else if ($('#cvbtn').text() == 'Download CV') {
+            $('.type-text').typeIt({
+                strings: ['Website', 'CV', 'Portfolio'],
+                breakLines: false,
+                autoStart: true,
+                cursor: false,
+                loop: true,
+                speed: 250
+            });
+        } else {
+            $('.type-text').typeIt({
+                strings: ['موقع انترنت', 'السيرة الذاتية'],
+                breakLines: false,
+                autoStart: true,
+                cursor: false,
+                loop: true,
+                speed: 250
+            });
+        }
+    });
 
     /*--------------------------
         PUSH MENU OPEN COLOSE

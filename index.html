@@ -82,7 +82,7 @@
                                         <div class="current_lang">
                                             <div class="lang">
                                                 <img src="https://image.flaticon.com/icons/svg/299/299753.svg">
-                                                <span class="lang-txt">FR</span>
+                                                <span class="lang-txt" onchange="changeLang()">FR</span>
                                                 <span class="fa fa-chevron-down chevron"></span>
                                             </div>
                                         </div>
@@ -1051,7 +1051,10 @@
 
         //translate CV To FR, An & AR
         $('#urlCV').hover(
+ 
+
             function () { // mouseenter
+                console.log($('.current_lang .lang .lang-txt').text());
                 if ($('#cvbtn').text() == 'Télècharger CV') {
                     document.getElementById("urlCV").href = "https://docs.google.com/viewer?url=https://rochdiarafa.github.io/CV/Rachid-Arafa-CV-FR.pdf";
                 }
