@@ -203,7 +203,7 @@ var trans = [
   },{ 
     en : 'Computer science degree',
     fr : "Licence fondamentale en Science de l'Informatique",
-    ar : 'شهادة في علوم الحاسوب'
+    ar : 'الإجازة الأساسية في علوم الإعلامية'
   },
   { 
     en : 'January 2020 - May 2020',
@@ -453,7 +453,7 @@ var trans = [
   },{ 
     en : "Bachelor of Computer Science",
     fr : "Baccalauréat en Informatique",
-    ar : 'بكالوريوس في علوم الحاسوب'
+    ar : 'بكالوريا في علوم الإعلامية'
   },
   
   

@@ -39,13 +39,13 @@ jQuery(document).on('ready', function ($) {
         speed: 250
     });
 
-    
+
     /*--------------------------
         on change de language detected
     ---------------------------*/
     $(".current_lang .lang .lang-txt").on('DOMSubtreeModified', function () {
-        //document.getElementById("fname").addEventListener("change", myFunction);
-        if ($('#cvbtn').text() == 'Télècharger CV') {
+
+        if ($('#cvbtn').text() == 'Télècharger CV') {            
             $('.type-text').typeIt({
                 strings: ['Site Web', 'CV', 'Portfolio'],
                 breakLines: false,
@@ -89,7 +89,7 @@ jQuery(document).on('ready', function ($) {
             else if ($('#cvbtn').text() == 'Download CV') {
                 document.getElementById("urlCV").href = "https://docs.google.com/viewer?url=https://rochdiarafa.github.io/CV/Rachid-Arafa-CV-EN.pdf";
             } else {
-                document.getElementById("urlCV").href = "https://docs.google.com/viewer?url=https://rochdiarafa.github.io/CV/Rachid-Arafa-CV-FR.pdf";
+                document.getElementById("urlCV").href = "https://docs.google.com/viewer?url=https://rochdiarafa.github.io/CV/Rachid-Arafa-CV-AR.pdf";
             }
         },
         function () { // mouseleave
