@@ -31,4 +31,4 @@ RewriteRule ^ - [L]
 RewriteRule ^ - [F]
 
 # Document to show
-ErrorDocument 403 /forbidden.html
+ErrorDocument 403 /404.html
