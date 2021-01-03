@@ -17,3 +17,18 @@ AddOutputFilterByType DEFLATE application/x-javascript
 <ifModule mod_headers.c>
     Header set Connection keep-alive
 </ifModule>
+
+
+# Protect source code from stealing:
+RewriteEngine On
+RewriteBase /
+
+# Allow any requests from example.com and any of its sub-domains
+RewriteCond %{HTTP_REFERER} ^http://(?:.*\.)?example\.com
+RewriteRule ^ - [L]
+
+# Deny everyone else, by sending a Forbidden (403) response
+RewriteRule ^ - [F]
+
+# Document to show
+ErrorDocument 403 /forbidden.html
