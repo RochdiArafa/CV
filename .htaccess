@@ -17,18 +17,3 @@ AddOutputFilterByType DEFLATE application/x-javascript
 <ifModule mod_headers.c>
     Header set Connection keep-alive
 </ifModule>
-
-
-# Protect source code from stealing:
-RewriteEngine On
-RewriteBase /
-
-# Allow any requests from rochdiarafa.github.io/CV/ and any of its sub-domains
-RewriteCond %{HTTP_REFERER} ^http://(?:.*\.)?rochdiarafa.github.io/CV/
-RewriteRule ^ - [L]
-
-# Deny everyone else, by sending a Forbidden (403) response
-RewriteRule ^ - [F]
-
-# Document to show
-ErrorDocument 403 /404.html
