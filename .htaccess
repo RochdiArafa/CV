@@ -23,8 +23,8 @@ AddOutputFilterByType DEFLATE application/x-javascript
 RewriteEngine On
 RewriteBase /
 
-# Allow any requests from example.com and any of its sub-domains
-RewriteCond %{HTTP_REFERER} ^http://(?:.*\.)?example\.com
+# Allow any requests from rochdiarafa.github.io/CV/ and any of its sub-domains
+RewriteCond %{HTTP_REFERER} ^http://(?:.*\.)?rochdiarafa.github.io/CV/
 RewriteRule ^ - [L]
 
 # Deny everyone else, by sending a Forbidden (403) response
