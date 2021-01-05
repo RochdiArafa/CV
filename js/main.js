@@ -82,7 +82,6 @@ jQuery(document).on('ready', function ($) {
 
     $('#urlCV').hover(
         function () { // mouseenter
-            console.log($('.current_lang .lang .lang-txt').text());
             if ($('#cvbtn').text() == 'Télècharger CV') {
                 document.getElementById("urlCV").href = "https://docs.google.com/viewer?url=https://rochdiarafa.github.io/CV/Rachid-Arafa-CV-FR.pdf";
             }
@@ -95,6 +94,25 @@ jQuery(document).on('ready', function ($) {
         function () { // mouseleave
 
         });
+
+        /*--------------------------
+        change url linkedIn To FR, An & AR
+    ---------------------------*/
+
+    $('#urlLinkedIn').hover(
+        function () { // mouseenter
+            if ($('#cvbtn').text() == 'Télècharger CV') {
+                document.getElementById("urlLinkedIn").href = "https://www.linkedin.com/in/rachid-arafa/?locale=fr_FR";
+            }
+            else if ($('#cvbtn').text() == 'Download CV') {
+                document.getElementById("urlLinkedIn").href = "https://www.linkedin.com/in/rachid-arafa/?locale=en_US";
+            } else {
+                document.getElementById("urlLinkedIn").href = "https://www.linkedin.com/in/rachid-arafa/";
+            }
+        },
+        function () { // mouseleave
+
+        });    
 
     /*--------------------------
         PUSH MENU OPEN COLOSE
