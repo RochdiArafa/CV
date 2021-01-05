@@ -107,7 +107,7 @@ jQuery(document).on('ready', function ($) {
             else if ($('#cvbtn').text() == 'Download CV') {
                 document.getElementById("urlLinkedIn").href = "https://www.linkedin.com/in/rachid-arafa/?locale=en_US";
             } else {
-                document.getElementById("urlLinkedIn").href = "https://www.linkedin.com/in/rachid-arafa/";
+                document.getElementById("urlLinkedIn").href = "https://www.linkedin.com/in/rachid-arafa/?locale=ar_AE";
             }
         },
         function () { // mouseleave
