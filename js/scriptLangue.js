@@ -193,7 +193,7 @@ var trans = [
     fr : "2018 - Aujourd'hui",
     ar : '2018 - الوقت الحاضر'
   },{ 
-    en : 'Computer science engineering degree specializing in web technologies',
+    en : 'Associate degree in Computer Engineering specializing in web technologies',
     fr : "Diplôme d'ingénieur en informatique spécialisé dans les technologies du web",
     ar : 'شهادة في هندسة علوم الكمبيوتر متخصص في تقنيات الويب'
   },{ 
@@ -201,7 +201,7 @@ var trans = [
     fr : "Faculté Des Sciences De Bizerte (FSB)",
     ar : 'كلية العلوم ببنزرت (FSB)'
   },{ 
-    en : 'Computer science degree',
+    en : 'Associate degree in Computer Science',
     fr : "Licence fondamentale en Science de l'Informatique",
     ar : 'الإجازة الأساسية في علوم الإعلامية'
   },
