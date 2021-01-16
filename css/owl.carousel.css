@@ -17,11 +17,6 @@
     z-index: 1;
 }
 
-.owl-carousel .fadeOut {
-    -webkit-animation-name: fadeOut;
-    animation-name: fadeOut;
-}
-
 @-webkit-keyframes fadeOut {
     0% {
         opacity: 1;

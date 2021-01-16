@@ -142,15 +142,6 @@ body{
   margin-top:15px;
 }
 
-
-.content div.ct-img{
-  width:150px;
-  height:150px;
-  overflow:hidden;
-  border-radius:50%;
-  margin:0 auto 10px;
-}
-
 .content div img{
   height:100%;
   position:relative;

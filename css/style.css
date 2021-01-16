@@ -38,20 +38,6 @@ ALL COLOR : PRIMARY SKY COLOR        #21c2f8, GRADIENT COLOR CODE: (#21c2f8, #00
 ----------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Poppins:300,500,600');
-.alignleft {
-    float: left;
-    margin-right: 15px;
-}
-
-.alignright {
-    float: right;
-    margin-left: 15px;
-}
-
-.aligncenter {
-    display: block;
-    margin: 0 auto 15px;
-}
 
 a {
     -webkit-transition: 0.3s;
@@ -106,10 +92,6 @@ a:hover {
     border-radius: 0;
 }
 
-.navbar-toggle .icon-bar {
-    background: #21c2f8 none repeat scroll 0 0;
-}
-
 
 /* Remove Chrome Input Field's Unwanted Yellow Background Color */
 
@@ -147,23 +129,6 @@ input:-webkit-autofill:focus {
     transform: skewX(-20deg);
     width: 100px;
     z-index: -1;
-}
-
-.area-title-after {
-    background: transparent;
-    display: inline-block;
-    height: 1px;
-    margin-bottom: 50px;
-    position: relative;
-    width: 180px;
-}
-
-.area-title p {
-    margin-bottom: 0;
-}
-
-.section-padding {
-    padding: 100px 0;
 }
 
 .padding-top {
@@ -251,12 +216,6 @@ input:-webkit-autofill:focus {
 
 .is-sticky .navbar-header {
     margin-top: 6px;
-}
-
-.navbar {
-    border-bottom: 0 none;
-    border-top: 0 none;
-    margin-bottom: 0;
 }
 
 .navbar-brand > img {
@@ -351,18 +310,6 @@ ul#nav li.active a {
     z-index: 99999;
 }
 
-.side-push-menu {
-    color: #fff;
-    float: right;
-    height: 100px;
-    padding-left: 20px;
-    padding-top: 35px;
-    position: relative;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    width: 60px;
-}
-
 .push-menu-open-button {
     background: #21c2f8 none repeat scroll 0 0;
     color: #ffffff;
@@ -393,13 +340,6 @@ ul#nav li.active a {
     width: 1px;
 }
 
-.is-sticky .side-push-menu {
-    height: 60px;
-    padding-bottom: 20px;
-    padding-top: 15px;
-}
-
-
 /*-----------------------------------
     2.2 SIDE PUSH MENU AREA
 ------------------------------------*/
@@ -422,45 +362,6 @@ ul#nav li.active a {
 .push-menu-and-content.menu-open {
     right: 0;
 }
-
-.search-bar {
-    margin-bottom: 30px;
-}
-
-.search-bar form {
-    border: 1px solid #555;
-    height: 35px;
-    position: relative;
-    width: 100%;
-}
-
-.search-bar form input {
-    background: transparent none repeat scroll 0 0;
-    border: 0 none;
-    height: 100%;
-    letter-spacing: 1px;
-    padding: 5px;
-    position: absolute;
-    width: 100%;
-}
-
-.search-bar form button {
-    background: #21c2f8 none repeat scroll 0 0;
-    border: 0 none;
-    height: 35px;
-    position: absolute;
-    right: -1px;
-    top: -1px;
-    width: 40px;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-}
-
-.search-bar form button:hover {
-    background: #ffffff;
-    color: #21c2f8;
-}
-
 .push-menu {
     margin-bottom: 40px;
 }
@@ -515,23 +416,6 @@ ul#nav li.active a {
     color: #21c2f8;
 }
 
-.push-menu-logo {
-    margin-bottom: 40px;
-    text-align: center;
-}
-
-.push-menu-logo img {
-    max-width: 70%;
-}
-
-.author-img-and-about-content {
-    margin-bottom: 40px;
-}
-
-.author-img-and-about-content img {
-    margin-bottom: 30px;
-}
-
 .push-menu-and-content .author-social-bookmark {
     margin-bottom: 20px;
 }
@@ -571,13 +455,6 @@ ul#nav li.active a {
     padding-top: 100px;
     width: 100%;
     text-transform: uppercase;
-}
-
-.welcome-text h1 {
-    font-size: 60px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    margin-bottom: 40px;
 }
 
 .welcome-text h2,
@@ -659,13 +536,6 @@ ul#nav li.active a {
     margin-bottom: 0;
 }
 
-.about-content h4 {
-    font-size: 24px;
-    letter-spacing: 1px;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-}
-
 .about-content p {
     margin-bottom: 20px;
 }
@@ -705,10 +575,6 @@ ul#nav li.active a {
     padding-top: 5px;
     text-align: center;
     width: 40px;
-}
-
-.author-sign {
-    margin-bottom: 30px;
 }
 
 .author-social-bookmark ul li a:hover {
