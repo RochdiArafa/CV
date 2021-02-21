@@ -462,9 +462,9 @@ var trans = [
     fr : "Décembre 2020 - Février 2021 à suisse",
     ar : 'ديسمبر 2020 - فبراير 2021 في سويسرا'
   },{ 
-    en : "Full Stack project at Gaea21",
-    fr : "Projet Full Stack à Gaea21",
-    ar : 'مشروع Full Stack في Gaea21'
+    en : "Internship at Gaea21",
+    fr : "Stage à Gaea21",
+    ar : 'تدريب في Gaea21'
   },{ 
     en : "Development of a social network specializing in Green Event Series within gaea21. This application aims to promote, set up and manage events in order to make gaea21 known, but also to talk about sustainable development. It also aims to acquire new members and develop different communities.",
     fr : "Développement d'un réseau social spécialisé dans les évènements vert au sein de gaea21. Cette application vise à promouvoir, mettre en place et gérer des évènements afin de faire connaître gaea21, mais également parler du développement durable. Elle a également pour objectif d'acquérir de nouveaux membres et de développer différentes communautés.",
