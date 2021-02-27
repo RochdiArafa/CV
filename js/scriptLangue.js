@@ -75,7 +75,7 @@ function translate(tnum){
   $('#placeProjet3').text(trans[30][tnum]);
   $('#descProjet3').text(trans[31][tnum]);
   $('#dateProjet2').text(trans[32][tnum]);
-  $('#placeProjet2').text(trans[33][tnum]);
+  $('.placeProjet2').text(trans[33][tnum]);
   $('#descProjet2').text(trans[34][tnum]);
   $('#dateProjet1').text(trans[35][tnum]);
   $('#placeProjet1').text(trans[36][tnum]);
@@ -126,6 +126,8 @@ function translate(tnum){
   $('#dateProjet7').text(trans[81][tnum]);
   $('#placeProjet7').text(trans[82][tnum]);
   $('#descProjet7').text(trans[83][tnum]);
+  $('#dateProjet8').text(trans[84][tnum]);
+  $('#descProjet8').text(trans[85][tnum]);
 
 }
 
@@ -265,9 +267,9 @@ var trans = [
     fr : "Janvier 2018 - Avril 2018",
     ar : 'يناير 2018 - أبريل 2018'
   },{ 
-    en : 'End of studies project internship at Diamont Soft',
-    fr : "Stage de projet de fin d’études à Diamont Soft",
-    ar : 'مشروع PIDEV في ESPRIT'
+    en : 'End of studies project internship at Diamant Soft',
+    fr : "Stage de projet de fin d’études à Diamant Soft",
+    ar : 'تدريب مشروع التخرج في Diamant Soft'
   },{ 
     en : 'Development of a web and a hybrid mobile application accessible to the public to search for driving schools and accessible for the manager of a driving school to manage his work ...',
     fr : "Développement d'une application web et mobile hybride accessible pour le public pour rechercher des auto-écoles et accessible pour le responsable d’une auto-école pour gérer son travail ...",
@@ -470,6 +472,15 @@ var trans = [
     fr : "Développement d'un réseau social spécialisé dans les évènements vert au sein de gaea21. Cette application vise à promouvoir, mettre en place et gérer des évènements afin de faire connaître gaea21, mais également parler du développement durable. Elle a également pour objectif d'acquérir de nouveaux membres et de développer différentes communautés.",
     ar : 'تطوير شبكة اجتماعية متخصصة في الأحداث الخضراء داخل gaea21. يهدف هذا التطبيق إلى الترويج للأحداث وإعدادها وإدارتها من أجل تعريف gaea21 ، ولكن أيضًا للتحدث عن التنمية المستدامة. كما تهدف إلى اكتساب أعضاء جدد وتطوير مجتمعات مختلفة.'
   },
-  
+  { 
+    en : "March 2021 - August 2021",
+    fr : "Mars 2021 - Aout 2021",
+    ar : 'مارس 2021 - أغسطس 2021'
+  },
+  { 
+    en : "This involves developing a web application for the back office part and a hybrid mobile application for the front office part of ordering and monitoring deliveries. This application aims to promote, set up and manage orders for any type of delivery. It also aims to track all orders in real time and evaluate the delivery.",
+    fr : "Il s’agit de développer une application web pour la partie back office et une application mobile hybride pour la partie front office de commande et suivi de livraisons. Cette application vise à promouvoir, mettre en place et gérer les commandes pour n’importe quel type de livraison. Elle a également pour objectif de suivre toute commande en temps réelle et d’évaluer la livraison.",
+    ar : 'يتضمن ذلك تطوير تطبيق ويب لجزء المكتب الخلفي وتطبيق هجين للهاتف المحمول لجزء المكتب الأمامي من طلب ومراقبة عمليات التسليم. يهدف هذا التطبيق إلى ترويج الطلبات وإعدادها وإدارتها لأي نوع من أنواع التسليم. كما يهدف إلى تتبع جميع الطلبات في الوقت الفعلي وتقييم التسليم.'
+  },
   
 ];
