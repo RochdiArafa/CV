@@ -165,7 +165,7 @@ var trans = [
     fr : 'Contact',
     ar : 'اتصل'
   },{ 
-    en : 'Fullstack web Ingineer',
+    en : 'Fullstack Web Engineer',
     fr : 'Ingénieur Web Fullstack',
     ar : 'مهندس تطبيقات الويب '
   },{ 
