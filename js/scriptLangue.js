@@ -175,7 +175,7 @@ var trans = [
   },{ 
     en : "My name is Rachid Arafa, I had the computer science degree at the science faculty of bizerte, and right now I'm a 5th year student at the Private Higher School of Engineering and Technologies in order to become a computer engineer. I have developed many applications on different platforms. I am a self-sufficient, highly motivated, energetic and results-oriented person, but I also value cooperation and team spirit.",
     fr : "Je m'appelle Rachid Arafa, titulaire d’une licence fondamentale en informatique à la faculté de science de bizerte, et étudiant en 5éme année à Esprit en guise d'obtenir le diplôme d’ingénieur en informatique. J'ai développé pas mal d’application sur différentes plateformes. Je suis quelqu’un d’autonome, très motivé, énergique et axé sur les résultats, mais je valorise aussi la coopération et l'esprit d'équipe.",
-    ar : ' اسمي رشيد عرافة ، حاصل على الإجازة الأساسية في علوم الإعلامية بكلية العلوم ببنزرت ، وطالب في السنة الخامسة في المدرسة العليا الخاصة للمهندسين والتقنيات للحصول على دبلوم هندسة الكمبيوتر. لقد قمت بتطوير عديد التطبيقات على منصات مختلفة. أنا شخص مكتفٍ ذاتيًا ، ومتحفز للغاية ، وحيوي ، وموجه نحو النتائج ، لكنني أيضًا أقدر التعاون وروح الفريق.'
+    ar : ' اسمي رشيد عرافة ، حاصل على الإجازة الأساسية في علوم الإعلامية بكلية العلوم ببنزرت وطالب في السنة الخامسة في المدرسة العليا الخاصة للمهندسين والتقنيات للحصول على دبلوم هندسة الكمبيوتر. لقد قمت بتطوير عديد التطبيقات على منصات مختلفة. أنا شخص مكتفٍ ذاتيًا ، ومتحفز للغاية ، وحيوي ، وموجه نحو النتائج ، لكنني أيضًا أقدر التعاون وروح الفريق.'
   },{ 
     en : 'Full Name: ',
     fr : 'Nom & prénom: ',
@@ -426,7 +426,7 @@ var trans = [
   },{ 
     en : "Frensh",
     fr : "Français",
-    ar : 'الفرنسي'
+    ar : 'الفرنسية'
   },{ 
     en : "English",
     fr : "Anglais",
@@ -434,7 +434,7 @@ var trans = [
   },{ 
     en : "Arabic",
     fr : "Arabe",
-    ar : 'العربي'
+    ar : 'العربية'
   },{ 
     en : "Adress",
     fr : "Adresse",
