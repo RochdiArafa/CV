@@ -126,8 +126,9 @@ function translate(tnum){
   $('#dateProjet7').text(trans[81][tnum]);
   $('#placeProjet7').text(trans[82][tnum]);
   $('#descProjet7').text(trans[83][tnum]);
-  $('#dateProjet8').text(trans[84][tnum]);
-  $('#descProjet8').text(trans[85][tnum]);
+  $('#placeProjet8').text(trans[84][tnum]);
+  $('#dateProjet8').text(trans[85][tnum]);
+  $('#descProjet8').text(trans[86][tnum]);
 
 }
 
@@ -471,6 +472,10 @@ var trans = [
     en : "Development of a social network specializing in Green Event Series within gaea21. This application aims to promote, set up and manage events in order to make gaea21 known, but also to talk about sustainable development. It also aims to acquire new members and develop different communities.",
     fr : "Développement d'un réseau social spécialisé dans les évènements vert au sein de gaea21. Cette application vise à promouvoir, mettre en place et gérer des évènements afin de faire connaître gaea21, mais également parler du développement durable. Elle a également pour objectif d'acquérir de nouveaux membres et de développer différentes communautés.",
     ar : 'تطوير شبكة اجتماعية متخصصة في الأحداث الخضراء داخل gaea21. يهدف هذا التطبيق إلى الترويج للأحداث وإعدادها وإدارتها من أجل تعريف gaea21 ، ولكن أيضًا للتحدث عن التنمية المستدامة. كما تهدف إلى اكتساب أعضاء جدد وتطوير مجتمعات مختلفة.'
+  },{ 
+    en : "End of Study Internship at Eleganza",
+    fr : "Stage de projet de fin d'études à Eleganza",
+    ar : 'تدريب مشروع التخرج في Eleganza'
   },
   { 
     en : "March 2021 - August 2021",
