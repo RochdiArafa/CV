@@ -478,9 +478,9 @@ var trans = [
     ar : 'تدريب مشروع التخرج في Eleganza'
   },
   { 
-    en : "March 2021 - August 2021",
-    fr : "Mars 2021 - Aout 2021",
-    ar : 'مارس 2021 - أغسطس 2021'
+    en : "Mars 2021 - Septembre 2021",
+    fr : "March 2021 - September 2021",
+    ar : 'مارس 2021 - سبتمبر 2021'
   },
   { 
     en : "This involves developing a web application for the back office part and a hybrid mobile application for the front office part of ordering and monitoring deliveries. This application aims to promote, set up and manage orders for any type of delivery. It also aims to track all orders in real time and evaluate the delivery.",
