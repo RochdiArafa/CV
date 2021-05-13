@@ -478,8 +478,8 @@ var trans = [
     ar : 'تدريب مشروع التخرج في Eleganza'
   },
   { 
-    en : "Mars 2021 - Septembre 2021",
-    fr : "March 2021 - September 2021",
+    en : "March 2021 - September 2021",
+    fr : "Mars 2021 - Septembre 2021",
     ar : 'مارس 2021 - سبتمبر 2021'
   },
   { 
